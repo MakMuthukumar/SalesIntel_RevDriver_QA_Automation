@@ -4,8 +4,6 @@
 name: Sales Intel Rev Driver Automation
 
 on:
-  schedule:
-    - cron: '15 * * * *'
   push:
     branches: [master]
   release:
