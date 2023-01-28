@@ -6,10 +6,7 @@ name: Sales Intel Rev Driver Automation
 on:
   schedule:
     - cron: '*/5 * * * *'
-  push:
-    branches: [master]
-  release:
-    types: [created]
+  workflow_dispatch:
 
 jobs:
   build:
