@@ -15,7 +15,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(features = "src\\test\\resources\\Features\\", glue = { "org.stepdefinition",
 		"org.runner" }, dryRun = false, monochrome = true, tags = {
-				"@Various_Region_India,@Various_Region_US" }, plugin = {
+				"@Various_Region_UK,@Various_Region_US" }, plugin = {
 						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "pretty",
 						"io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm", "html:src\\test\\resources\\Reports\\HTML",
 						"json:src\\test\\resources\\Reports\\Json\\cucumber.json",
