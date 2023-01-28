@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>SalesIntel RevDriver Automation Testing</td>
+      <td>28 Jan 2023, 11:57</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">Before_And_After.afterExecutedClassForVariousRegionIndia(Scenario)</td>
+              <td>1</td>
+              <td class="duration" data-value="1366200">0.001</td>
+              <td class="duration" data-value="1366200">0.001</td>
+              <td class="duration" data-value="1366200">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Before_And_After.afterExecutedClassForVariousRegionUS(Scenario)</td>
+              <td>1</td>
+              <td class="duration" data-value="539400">0.000</td>
+              <td class="duration" data-value="539400">0.000</td>
+              <td class="duration" data-value="539400">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Before_And_After.beforeExecutedClassForVariousRegionIndia(Scenario)</td>
+              <td>1</td>
+              <td class="duration" data-value="6068700">0.006</td>
+              <td class="duration" data-value="6068700">0.006</td>
+              <td class="duration" data-value="6068700">0.006</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Before_And_After.beforeExecutedClassForVariousRegionUS(Scenario)</td>
+              <td>1</td>
+              <td class="duration" data-value="711600">0.000</td>
+              <td class="duration" data-value="711600">0.000</td>
+              <td class="duration" data-value="711600">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Chrome_Extensions()</td>
+              <td>2</td>
+              <td class="duration" data-value="11392402400">11.392</td>
+              <td class="duration" data-value="11392402400">11.693</td>
+              <td class="duration" data-value="22784804800">22.784</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Login_CTA_with_Indian_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="6073493700">6.073</td>
+              <td class="duration" data-value="6073493700">6.073</td>
+              <td class="duration" data-value="6073493700">6.073</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Login_CTA_with_US_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="6252743500">6.252</td>
+              <td class="duration" data-value="6252743500">6.252</td>
+              <td class="duration" data-value="6252743500">6.252</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Pin_From_Chrome_Extensions()</td>
+              <td>2</td>
+              <td class="duration" data-value="6053059350">6.053</td>
+              <td class="duration" data-value="6053059350">6.058</td>
+              <td class="duration" data-value="12106118700">12.106</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_RevDriver_by_SalesIntel()</td>
+              <td>2</td>
+              <td class="duration" data-value="6040587000">6.040</td>
+              <td class="duration" data-value="6040587000">6.046</td>
+              <td class="duration" data-value="12081174000">12.081</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.close_the_Browser_with_Indian_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="5255457600">5.255</td>
+              <td class="duration" data-value="5255457600">5.255</td>
+              <td class="duration" data-value="5255457600">5.255</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.close_the_Browser_with_US_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="5380749400">5.380</td>
+              <td class="duration" data-value="5380749400">5.380</td>
+              <td class="duration" data-value="5380749400">5.380</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_Password_with_Indian_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="121831200">0.121</td>
+              <td class="duration" data-value="121831200">0.121</td>
+              <td class="duration" data-value="121831200">0.121</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_Password_with_US_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="98589800">0.098</td>
+              <td class="duration" data-value="98589800">0.098</td>
+              <td class="duration" data-value="98589800">0.098</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_UserName_with_Indian_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="165061200">0.165</td>
+              <td class="duration" data-value="165061200">0.165</td>
+              <td class="duration" data-value="165061200">0.165</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_UserName_with_US_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="138862300">0.138</td>
+              <td class="duration" data-value="138862300">0.138</td>
+              <td class="duration" data-value="138862300">0.138</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.launch_the_url_with_Indian_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="11459271000">11.459</td>
+              <td class="duration" data-value="11459271000">11.459</td>
+              <td class="duration" data-value="11459271000">11.459</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.launch_the_url_with_US_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="12989253900">12.989</td>
+              <td class="duration" data-value="12989253900">12.989</td>
+              <td class="duration" data-value="12989253900">12.989</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.switch_To_Frame_with_Indian_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="5127024100">5.127</td>
+              <td class="duration" data-value="5127024100">5.127</td>
+              <td class="duration" data-value="5127024100">5.127</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.switch_To_Frame_with_US_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="5055991200">5.055</td>
+              <td class="duration" data-value="5055991200">5.055</td>
+              <td class="duration" data-value="5055991200">5.055</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>19</td>
+            <td>22</td>
+            <td class="duration">4.777</td>
+            <td class="duration">22.784</td>
+            <td class="duration">1:45.099</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2850c97-5233-4241-975d-838d6f984c3c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Driver/chromedriver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../New/SalesIntel/.idea/SalesIntel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../New/SalesIntel/SalesIntel/SalesIntel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/src/test/java/org/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/src/test/java/org/steps/stepdefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/src/test/resources/Features/TC01_LaunchBrowser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/target/classes/.cucumber/cucumber.glue.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/target/classes/.cucumber/cucumber.stepDefinitions.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/target/test-classes/Features/TC01_LaunchBrowser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/target/test-classes/org/runner/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/target/test-classes/org/steps/stepdefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/Default suite/Default test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/Default suite/Default test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/junitreports/TEST-org.runner.Runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/old/Default suite/Default test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/old/Default suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/old/Default suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/old/Default suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/old/Default suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/old/Default suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/old/Default suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/old/Default suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/old/Default suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/old/Default suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/old/Default suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Soft_Think/Soft_Think/test-output/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SalesIntel/SalesIntel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven-publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven-publish.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KwVlzj8RQYjf9KWXwhJGYX9wUz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Automation/Projects/SalesIntel_Plugin/SalesIntel/testng.xml",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.Runner">
+    <configuration name="Runner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SalesIntel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.runner" />
+      <option name="MAIN_CLASS_NAME" value="org.runner.Runner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
+      <module name="SalesIntel" />
+      <shortenClasspath name="NONE" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.Unnamed" />
+      <item itemvalue="TestNG.Runner" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Runner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2850c97-5233-4241-975d-838d6f984c3c" name="Changes" comment="" />
+      <created>1674885792740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674885792740</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

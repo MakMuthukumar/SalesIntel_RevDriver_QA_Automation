@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="105.248475">
+    <testcase classname="Validate application login Page with India Region functionality" name="To validate application login page with Indian Region" time="52.132792">
+        <system-out>
+            <![CDATA[Given Launch the url with Indian Region.....................................passed
+When Click on Chrome Extensions.............................................passed
+And Click on Pin From Chrome Extensions.....................................passed
+And Click on RevDriver by SalesIntel........................................passed
+And Switch To Frame with Indian Region......................................passed
+And Enter the UserName with Indian Region...................................passed
+And Enter the Password with Indian Region...................................passed
+And Click on Login CTA with Indian Region...................................passed
+And Close the Browser with Indian Region....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validate application login Page with US Region functionality" name="To validate application login page with US Region" time="53.115683">
+        <system-out>
+            <![CDATA[Given Launch the url with US Region.........................................passed
+When Click on Chrome Extensions.............................................passed
+And Click on Pin From Chrome Extensions.....................................passed
+And Click on RevDriver by SalesIntel........................................passed
+And Switch To Frame with US Region..........................................passed
+And Enter the UserName with US Region.......................................passed
+And Enter the Password with US Region.......................................passed
+And Click on Login CTA with US Region.......................................passed
+And Close the Browser with US Region........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
