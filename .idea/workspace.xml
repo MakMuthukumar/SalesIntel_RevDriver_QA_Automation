@@ -63,9 +63,8 @@
       <change afterPath="$PROJECT_DIR$/../../Test/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Test/testng.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../SalesIntel/SalesIntel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven-publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven-publish.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/schedule-maven-publish.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/runner/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
